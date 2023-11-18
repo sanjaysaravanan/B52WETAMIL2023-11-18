@@ -1,0 +1,52 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+}
+
+body {
+  height: 1000px;
+}
+
+.bg-yellow {
+  background-color: yellow !important;
+}
+
+.pos-static {
+  position: static;
+  top: 100px;
+  right: 10px;
+}
+
+.pos-relative {
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+.pos-absolute {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.pos-fixed {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  /* Do not use bottom when using top */
+  /* bottom: 100px;  */
+  /* Do not use right when using left */
+  /* right: 100px; */
+}
+
+.pos-sticky {
+  position: sticky;
+  top: 20px;
+}
+
+.pos-bottom {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}

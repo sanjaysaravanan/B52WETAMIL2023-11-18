@@ -1,0 +1,122 @@
+
+Topics:
+  
+  class vs id
+  priority
+  use of important
+  display property: inline, block, inline-block
+  box model: padding,margin,border
+
+  parent inherit:
+    inheriting the property value from the parent is called parent inherit
+
+  gradient:
+    linear-gradient --> linear mixing of colors
+    radial-gradient --> radial mixing of colors
+
+  css function:
+    url() --> takes a path for the image or someother
+    linear-gradient() --> 
+    calc() --> calculate the property value from arthimetic operation (-, +)
+    eg: width: calc(100px - 30px) ---> 70px
+        parent entire height is 1000px 
+        height: calc(100% - 50px) ---> 950px
+
+  Position:
+
+    Positioning an element inside document with help of CSS properties
+
+    top, left, right, bottom
+
+    static/initial:
+      1. Goes with the normal flow of the document
+      2. Occupies its own space in the document
+      3. Not affected by top, right, bottom, left values
+      4. Affected by scrolling
+    
+    Relative:
+      1. Goes witht the normal flow of the document
+      2. Occupies its own space in the document
+      3. Affected by top, right, bottom, left values with respect to its postion initial position also will overlap other elements if itercepted
+      4. Affected by scrolling
+
+    Absolute:
+      1. Removed from the normal flow of the document and made to appear float over normal flow
+         of the document
+      2. No Space is occupied in the in the normal flow of the document or page layout
+      3. when **no** top, right ... props are specified itstays in 0px top respective to its initial position
+      4. Affected by top, right, bottom, left values with respective to initial 
+          containing block (html tag) ** provided none of its parents/ancestors has non 
+          static position value**
+        ** When some of its parents has non static position value then it moves with 
+        respective to the closest non static positioned parent **
+      5. Affected by scrolling
+    
+    Fixed:
+      1. Removed from the normal flow of the document and made to appear float over normal flow
+         of the document
+      2. No Space is occupied in the page layout
+      3. Affected by top, right, bottom, left values with respective to initial 
+          containing block (html tag)
+      4. Not Affected by scrolling
+
+    Sticky:
+      1. Goes witht the normal flow of the document
+      2. Occupies its own space in the document
+      3. Affected by top, right, bottom, left values with respective to initial 
+          containing block (html tag)
+      4. affected by top, left, ... values untill the values are reached else not 
+         affected by scroll
+    
+    z-index:
+      z-index is like floor value which decides what element should appear above other elements
+    
+  Overflow: (overflow-x, overflow-y)
+    visible: overflow will be visible and would hide the parent ( default value)
+    hidden: hides the overflowing content
+    auto/overlay: adds horizontal / vertical whenever the contents is overflowing
+    scroll: irrespective of overflow adds a scroll bar permanently
+  
+  Text-Overflow: 
+    clip --> clips the extra lines
+    elipsis ...
+
+  display: none; will be visible in html elements
+  will not be rendered in document
+
+  visibility: hidden; element will be rendered with its own space in the document but will be hidden to the user. Still it occupies the space
+  
+  measurements / Units:
+    Absolute Unit: 
+    px - pixel, pt - point, pc - picas
+    1px = 1/96th of an inch
+
+    1pt = point 1/72th of an inch
+
+    1pc = picas,  12 * 1pt or 1/6th of inch
+
+    Relative Units ( changes relative to its parent ) :
+      %, vh, vw, 
+      1% -> 1 percent of the parent's property value
+
+      vw -> viewport width
+        1vw -> 1 % viewport width
+      vh -> viewport height
+        1vh -> 1 % viewport height
+   
+
+Next Session:
+  empherical Units:
+    1em --> 1 * fontsize of parent 
+    2rem --> 2 * fontsize of parent 
+
+    1rem --> 1 * fontsize of root/initial containing element
+    2rem --> 2 * fontsize of root/initial containing element
+
+  fonts:
+  
+  icons:
+
+  Flex-Box
+
+  media-query

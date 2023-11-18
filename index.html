@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      div {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        /* background-color: green !important; */
+        /* background: linear-gradient(red, green) !important; */
+        /* background: radial-gradient(red, green) !important; */
+        background-image: url("https://upload.wikimedia.org/wikipedia/en/c/cb/Jailer_2023_Tamil_film_poster.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 8px;
+        border: 10px solid;
+        padding: 8px;
+      }
+      /* Class - used to style multiple tags with same styling */
+      .bg-blue {
+        background-color: blue;
+      }
+
+      p {
+        margin: inherit;
+        color: green;
+        border: 2px solid yellow;
+      }
+
+      span {
+        border: inherit;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      li {
+        list-style-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/255px-Flag_of_India.svg.png");
+      }
+      h1 {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-blue">1</div>
+    <div class="bg-blue">2</div>
+    <div class="bg-blue">3</div>
+    <!-- Parent Inherit -->
+    <p>
+      This is a sample Para
+      <span>B52WETAMIL</span>
+    </p>
+    <h1>Coffee</h1>
+    <ul>
+      <li>Coffee</li>
+      <li>Coffee</li>
+      <li>Coffee</li>
+    </ul>
+  </body>
+</html>
