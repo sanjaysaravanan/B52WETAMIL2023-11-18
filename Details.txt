@@ -19,8 +19,8 @@ Topics:
     linear-gradient() --> 
     calc() --> calculate the property value from arthimetic operation (-, +)
     eg: width: calc(100px - 30px) ---> 70px
-        parent entire height is 1000px 
-        height: calc(100% - 50px) ---> 950px
+        parent entire width is 1000px 
+        width: calc(100% - 50px) ---> 950px
 
   Position:
 
