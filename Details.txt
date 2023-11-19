@@ -80,6 +80,7 @@ Topics:
   Text-Overflow: 
     clip --> clips the extra lines
     elipsis ...
+    provided --> white-space: no-wrap;
 
   display: none; will be visible in html elements
   will not be rendered in document
